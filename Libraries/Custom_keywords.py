@@ -6,7 +6,7 @@ class CustomKeywords(LibraryComponent):
     @keyword
     def change_theme(self):
         dropdown = DropdownElement(self.seleniumlib.driver)
-        dropdown.change_theme_to_material()
+        dropdown.change_theme_to_material_main()
 
     @keyword
     def apply_underline(self):
