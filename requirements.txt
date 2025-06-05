@@ -1,0 +1,5 @@
+robotframework==7.0
+robotframework-seleniumlibrary
+selenium
+pytest
+pytest-mock
